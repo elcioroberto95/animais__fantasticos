@@ -1,4 +1,4 @@
-export default class initAnimaNumeros{
+export default class AnimaNumeros{
   constructor(numeros,observerTarget,observerClass){
     this.numeros = document.querySelectorAll(numeros);//'[data-numero]'
     this.observerTarget = document.querySelector(observerTarget);//'.numeros'
